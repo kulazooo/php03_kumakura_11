@@ -54,7 +54,8 @@ if ($status === false) {
                 <label>ユーザーID：<input type="text" name="lid" value=<?= $view['lid'] ?>></label><br>
                 <label>パスワード：<input type="text" name="lpw" value=<?= $view['lpw'] ?>></label><br>
                 <input type="hidden" name="id" value=<?= $view['id'] ?>><br>
-
+                <input type="hidden" name="id" value=<?= $kanri_flg['kanri_flg'] ?>><br>
+                <input type="hidden" name="id" value=<?= $life_flg['life_flg'] ?>><br>
                 <input type="submit" value="更新">
             </fieldset>
         </div>
